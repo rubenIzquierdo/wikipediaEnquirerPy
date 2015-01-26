@@ -1,3 +1,21 @@
+"""
+Library to query wikipedia using the webservice end-point
+
+@author: U{Ruben Izquierdo Bevia<rubenizquierdobevia.com>}
+@version: 1.2
+@contact: U{ruben.izquierdobevia@vu.nl<mailto:ruben.izquierdobevia@vu.nl>} 
+@contact: U{rubensanvi@gmail.com<mailto:rubensanvi@gmail.com>}
+@contact: U{rubenizquierdobevia.com}
+@since: 26-Jan-2015
+"""
+      
+############### Changes   #####################
+# v1.0 --> first version with basic functions
+################################################
+__last_modified__  = '26jan2014'
+__version__ = '1.0'
+__author__ = 'Ruben Izquierdo Bevia'
+
 import os
 import sys
 import cPickle
@@ -5,7 +23,6 @@ import hashlib
 import urllib2
 import cjson
 import time
-
 from urllib import urlencode
 
 
